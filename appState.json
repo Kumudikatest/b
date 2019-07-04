@@ -1,0 +1,77 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "63d902fe-1d5d-4643-bf04-e6d0941a75af": {
+        "id": "63d902fe-1d5d-4643-bf04-e6d0941a75af",
+        "parent": null,
+        "name": "g",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "e9274b99-6cb4-4f94-84df-17c75f799bee"
+        ],
+        "isRemovable": false,
+        "filePath": "g"
+      },
+      "e9274b99-6cb4-4f94-84df-17c75f799bee": {
+        "id": "e9274b99-6cb4-4f94-84df-17c75f799bee",
+        "parent": "63d902fe-1d5d-4643-bf04-e6d0941a75af",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "g/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "63d902fe-1d5d-4643-bf04-e6d0941a75af",
+    "openFiles": [
+      "e9274b99-6cb4-4f94-84df-17c75f799bee"
+    ],
+    "currentFileId": "e9274b99-6cb4-4f94-84df-17c75f799bee",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "g",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1562239446769
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "g",
+      "url": "https://github.com/Kumudikatest/b"
+    }
+  }
+}
